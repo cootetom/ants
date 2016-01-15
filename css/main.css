@@ -41,7 +41,9 @@ p {
 	.ant.UP_LEFT { transform: rotate(315deg); }
 
 	.ant.RED_ANT {
-		background-color: #FF0000;
+		background-color: #FF0000 !important;
+		height: 5px;
+		width: 5px;
 	}
 
 
@@ -70,7 +72,7 @@ p {
 	border-radius: 50%;
 }
 	.nest.RED_ANT_NEST {
-		background-color: #000;
+		background-color: #FF0000;
 	}
 
 .ant.FOUND_NEST_LOCATION.FOUND_FOOD_LOCATION {

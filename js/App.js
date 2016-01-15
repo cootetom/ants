@@ -49,8 +49,8 @@ window.App = (function () {
 
 	function initiate() {
 		buildColony();
-		buildAnts();
 		buildRedAnts();
+		buildAnts();
 		self.start();
 	}
 
